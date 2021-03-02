@@ -1,17 +1,37 @@
 <!DOCTYPE html>
-<html lang="">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
-    <title><%= htmlWebpackPlugin.options.title %></title>
-  </head>
-  <body>
-    <noscript>
-      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
-    </noscript>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
-  </body>
+<html>
+    <head>
+        <title>Burger Delivery</title>
+        <link rel="stylesheet" type="text/css" href="css/burger.css">
+    </head>
+    <body>
+        <figure class="burger">
+            <div class="burger__hero">
+                <img src="img/Burger.jpg" alt="Burger-photo" class="burger__img">
+            </div>
+            <div class="burger__content">
+                <div class="burger__title">
+                    <h1 class="burger__heading">Burger VEGETALE</h1>
+                    <div class="burger__tag burger__tag-1">
+                        #Vegetarian
+                    </div>
+                    <div class="burger__tag burger__tag-2">
+                        #Italian
+                    </div>
+                </div>
+                <p class="description">
+                    yummy veggie burger with tasty olives , crisp proppers.fresh arugula and original tomato italian sauce
+                </p>
+                <div class="burger_det">
+                    <p class="burger_detail"><span class="emoji">#</span>850 Kcal</p>
+                    <p class="burger_detail"><span class="emoji">#</span>30 min</p>
+                    <p class="burger_detail"><span class="emoji">#</span>4.7/5</p>
+                </div>
+            </div>
+            
+            <div class="burger__price">
+                Rs.120/-
+            </div>
+        </figure>
+    </body>
 </html>
